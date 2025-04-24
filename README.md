@@ -1,6 +1,8 @@
 ## Camouflaged Object Detection
 
-### Cascade R-CNN (ResNeXt-101 Backbone)
+### Cascade R-CNN (ResNeXt-101 Backbone)  
+<sub>Dataset: COD10K Train (only camouflaged object, 3060 images)</sub>
+
 - Epochs: 20
 
 | Metric                                | Score |
