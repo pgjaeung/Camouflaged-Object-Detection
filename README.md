@@ -85,3 +85,23 @@
 | 49 | 0.060943 | 0.296 |
 | 50 | 0.059836 | 0.294 |
 ### optimal epoch: 27
+
+- Dataset: COD10K + NC4K
+
+| Metric                                | Score |
+|---------------------------------------|-------|
+| AP@[IoU=0.50:0.95] (mAP)              | 0.086 |
+| AP@[IoU=0.50]                         | 0.194 |
+| AP@[IoU=0.75]                         | 0.065 |
+| AP (small objects)                   | 0.000 |
+| AP (medium objects)                  | 0.072 |
+| AP (large objects)                   | 0.118 |
+| AR@[IoU=0.50:0.95] (maxDets=100)     | 0.170 |
+| AR@[IoU=0.50:0.95] (maxDets=300)     | 0.170 |
+| AR@[IoU=0.50:0.95] (maxDets=1000)    | 0.170 |
+| AR (small objects)                   | 0.000 |
+| AR (medium objects)                  | 0.095 |
+| AR (large objects)                   | 0.257 |
+
+
+
